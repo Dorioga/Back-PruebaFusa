@@ -15,25 +15,28 @@
 3.  Configurar los datos para la base de datos en el archivo '.env'
 
     ```php
-    <?php
     DB_CONNECTION=pgsql
     DB_HOST=127.0.0.1 //localhost
     DB_PORT=5432
     DB_DATABASE=BD_Fusa //Nombre de base de datos que quiera crear la estructura del proyecto
     DB_USERNAME=postgres //Usuario para ingresar a la base de datos
     DB_PASSWORD=root //Contraseña para ingresar a la base de datos
-    ?>
+
+    ```
 
 4.  Hacer las migraciones para la creacion de las tablas en la base de datos anteriormente configurada
 
     ```php
-    <?php>
+
     php artisan migrate //Migrar las tablas por defecto crea el proyecto
     php artisan migrate --path=/database/migrations/Cargar.php //Migrar las tablas que se crea para guardar los datos segun los requerimientos.
-?>
+
+    ```
+
 5.  Por ultimo ejecutar el servidor de Laravel
 
-        ''' php
-        php artisan serve
+    ```php
+    php artisan serve
 
-    Nota: Asegúrese de tener todos los requerimientos instalados y configurados correctamente antes de intentar instalar y ejecutar el proyecto.
+Nota: Asegúrese de tener todos los requerimientos instalados y configurados correctamente antes de intentar instalar y ejecutar el proyecto.
+

@@ -4,14 +4,18 @@
 
 ## Requerimientos
 
--PHP 7.4 o superior
--Composer
--Postgresql
+- PHP 7.4 o superior
+- Composer
+- Postgresql
 
 ## Instalación
 
 1.  Clonar este repositorio 'git clone https://github.com/Dorioga/Back-PruebaFusa.git'
-2.  'cd' en la carpeta del proyecto e instalar las dependencias con Composer: 'composer install'
+2.  'cd' en la carpeta del proyecto e instalar las dependencias con Composer:
+    ```php
+    composer install
+
+    ```
 3.  Configurar los datos para la base de datos en el archivo '.env'
 
     ```php
@@ -29,7 +33,7 @@
     ```php
 
     php artisan migrate //Migrar las tablas por defecto crea el proyecto
-    php artisan migrate --path=/database/migrations/Cargar.php //Migrar las tablas que se crea para guardar los datos segun los requerimientos.
+    php artisan migrate --path=/database/migrations/Cargar.php //Migrar las tablas que se crea para guardar los datos.
 
     ```
 
@@ -37,6 +41,6 @@
 
     ```php
     php artisan serve
+    ```
 
 Nota: Asegúrese de tener todos los requerimientos instalados y configurados correctamente antes de intentar instalar y ejecutar el proyecto.
-

@@ -2,6 +2,7 @@
 
 # Proyecto Prueba Back-End Api
 
+Proyecto de API desarrollado en Laravel para crear,editar, consultar, actualizar datos relacionados con publicaciones y registro, inicio de sesion y consultar los datos de los usuarios. La API proporciona endpoints para manejar los datos usuarios y publicaciones, permitiendo a los usuarios de la API interactuar con la base de datos a través de HTTP.
 ## Requerimientos
 
 - PHP 7.4 o superior
